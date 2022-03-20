@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 120px;
+}
+
+header {
+    padding-bottom: 71px;
+}
+
+.site-nav {
+    Width: 1440px;
+    Height: 71px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(48, 48, 48);
+    opacity: .5;
+}
+
+.site-nav__info>img {
+    margin-right: 40px;
+}
+
+.logo {
+    width: 146px;
+    height: 35px;
+}
+
+.site-hero {
+    position: relative;
+}
+
+.site-hero__title {
+    position: absolute;
+    top: 149px;
+    width: 602px;
+    height: 96px;
+    font-family: sans-serif;
+    font-weight: 20px;
+    font-size: 41px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-left: 189px;
+}
+
+.site-hero__subtitle {
+    position: absolute;
+    top: 269px;
+    width: 447px;
+    height: 46px;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 189px;
+}
+
+.site-hero__controller {
+    position: absolute;
+    width: 165px;
+    height: 55px;
+    left: 192px;
+    top: 354px;
+    border: 2px solid #C80000;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+.site-hero__controller>a {
+    text-decoration: none;
+    color: white;
+}
+
+.page1-footer {
+    position: relative;
+    top: 481px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.num {
+    display: flex;
+}
+
+.num>a {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 26px;
+}
+
+.num>a:hover {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.forward {
+    background-color: black;
+    border-radius: 50%;
+    opacity: .9;
+}
+
+.page2-container {
+    padding: 60px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3f3a3a;
+    text-align: center;
+    color: white;
+}
+
+.page2-item>img {
+    margin-bottom: 31px;
+}
+
+.page2-item>p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.page3 {
+    background-color: #3f3a3a;
+}
+
+.page3-container {
+    margin: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page3-main {
+    position: relative;
+    width: 590px;
+    height: 481px;
+    background-image: url(./page3-img/page3-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.page3-main>h4 {
+    position: absolute;
+    top: 430px;
+    left: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.page3-main>a {
+    position: absolute;
+    top: 430px;
+    left: 510px;
+    border: #FFFFFF;
+}
+
+.card-imgs {
+    position: relative;
+    Width: 266px;
+    Height: 412px;
+    border-radius: 15px;
+    background-color: #272727;
+    text-align: right;
+    margin-bottom: 12px;
+    margin-right: 18px;
+}
+
+.card-img {
+    margin-top: 80px;
+}
+
+.card-icon2 {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 5px 14px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.card-icon3 {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 2px 9px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.card-icon {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.page3-card {
+    margin: 0px 19px;
+}
+
+.page3-card>p {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.page3-card__inst {
+    width: 266px;
+    height: 412px;
+    background-image: url(./page3-img/img5.png);
+    background-repeat: no-repeat;
+    text-align: right;
+    border-radius: 15 px;
+}
+
+.page3-card__inst>img {
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+}
